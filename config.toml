@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "搏～博"
+theme = "hugo-ivy"
+[menu]
+[[menu.main]]
+  identifier = 'blog'
+  name = '日志'
+  title = 'blog section'
+  url = '/cn/dairy/'
+  weight = -110
+[[menu.main]]
+  identifier = 'archive'
+  name = '总结'
+  title = 'blog section'
+  url = '/cn/summary/'
+  weight = -100
+[[menu.main]]
+  identifier = 'about'
+  name = "关于"
+  title = 'blog section'
+  url = '/cn/about/'
+  weight = -11
