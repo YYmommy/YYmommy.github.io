@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on 搏～博</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Homepage on 搏～博</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一周总结</title>
+      <link>http://example.org/cn/summary/weekly-202109-1/</link>
+      <pubDate>Sun, 19 Sep 2021 19:09:36 +0900</pubDate>
+      
+      <guid>http://example.org/cn/summary/weekly-202109-1/</guid>
+      <description>忙碌工作的一周。周六还花了半天时间 Debug。好在找到了问题的原因。再一次证明计算机就像女朋友，永远是对的，错的肯定是我。
+技术类的书籍看到后面就会有些吃力，想要逃避。还是要踏下心来。
+上周从图书馆借的《舞！舞！舞！》才看到四分之一。故事承接《寻羊冒险记》，写的是四年多以后的故事。主题依然是寻找，但与四年前相比，主人公的心态发生了转变。《寻羊》是被动地，而《舞》则是主动地。被动的，让外界推着走的人生也许相对轻松些，但是总会有那么一天，没有人再推你，没有人能告诉应该做什么。也许这才是自己真正人生的开始。
+一半的娱乐是看《脱口秀大会 4》，另一半是看《傲骨之战 5》。想到这个世界上还有那么群人整天不干正事儿，一门心思想着怎么逗别人笑，感觉很奇妙。《傲骨之战》这一季里出现的民间法庭令人惊叹。那位法官看上去简直是圣人，让我不由得担心后面人设会不会崩，毕竟人无完人。
+周日重新收拾了一下博客。看了《白蛇 2：青蛇劫起》。国产动画片还是可以看看的。其间联想到了奇异博士和小黄人。</description>
+    </item>
+    
+    <item>
+      <title>一个人的周末</title>
+      <link>http://example.org/cn/dairy/20210919/</link>
+      <pubDate>Sun, 19 Sep 2021 09:17:20 +0900</pubDate>
+      
+      <guid>http://example.org/cn/dairy/20210919/</guid>
+      <description>晶和朋友去江之岛，一个人在家折腾了一下博客。这次尝试了 Hugo。很喜欢谢益辉博客的风格，直接不厚道地 Copy 来用了。
+步骤参考官方文档：Quick Start。进行到第三步时安装 hugo-ivy 主题：
+cd blog git init git submodule add git@github.com:yihui/hugo-ivy.git themes/hugo-ivy echo theme = \&amp;#34;hugo-ivy\&amp;#34; &amp;gt;&amp;gt; config.toml 打算尝试写 Daily Note，希望可以坚持下去。
+午饭去超市买了牛肉饭、章鱼烧、百事可乐。 顺便买了入浴剂，擦地板的湿巾。
+下午扫除。
+看了电影《青蛇劫起》。</description>
+    </item>
+    
+    <item>
+      <title>通过 Chrome OS 连接谷歌云虚拟机</title>
+      <link>http://example.org/cn/dairy/connect-google-cloud-vm-with-chrome-os/</link>
+      <pubDate>Mon, 04 May 2020 03:40:20 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/connect-google-cloud-vm-with-chrome-os/</guid>
+      <description>参考：Setting up SSH Keys with the Chrome OS Secure Shell Extension</description>
+    </item>
+    
+    <item>
+      <title>四月小结</title>
+      <link>http://example.org/cn/summary/sumary-202004/</link>
+      <pubDate>Sat, 02 May 2020 12:56:56 +0000</pubDate>
+      
+      <guid>http://example.org/cn/summary/sumary-202004/</guid>
+      <description>把公众号改名「小心译意」。
+公众号关注人数增加到 122 人（增加 10 人）。
+翻译《劝学》第二篇至第四篇，约 11 千字。
+翻译寺田寅彦随笔 3 篇，约 6 千字。
+修改张晶翻译的寺田寅彦随笔 4 篇，约 5 千字。
+听了李笑来直播《十年五本书》。学到一个词，「长期主义」。
+重新折腾了博客，名字改成「LearniT」。
+Learn it, learn IT.
+也是受了李笑来影响：「不会怎么办？学呗。」翻译成英语大概就是：
+Just do learn it.
+重新折腾博客的原因是：最近在尝试 Chrome OS，不想进苹果系统……
+看剧  《风骚律师》第五季⭐⭐⭐⭐⭐ 《不完美的她》⭐⭐⭐ 《Mother》⭐⭐⭐⭐⭐ 《西部世界》第三季⭐⭐⭐⭐⭐  读书  《黑客与画家》⭐⭐⭐⭐  学习  Rust 编程语言 Bash  </description>
+    </item>
+    
+    <item>
+      <title>跑了两天步，感觉自己智商有所恢复</title>
+      <link>http://example.org/cn/dairy/running/</link>
+      <pubDate>Tue, 24 Mar 2020 20:17:22 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/running/</guid>
+      <description>因为疫情的关系（没有错，都是因为疫情），这几个月都没怎么出门，更不要说跑步。翻一下 KEEP 上的记录，上次跑步是去年 10 月，四舍五入就是半年没跑了。
+不跑步的日子，整个人闷闷的（两次不小心打成萌萌的）。这两天才终于出去跑了一下，感觉似乎智商有所恢复。当然，这很可能是心理作用。因为听过一本书叫做《运动改变大脑》，说运动可以让人变聪明。村上春树也在《我的职业是小说家》里提到：「根据最近的研究，脑内海马体产生的神经元的数量，可以通过有氧运动得到飞跃性的增加。」
+究竟智商有没有恢复，也没有办法测量，不过确实会蹦出一些想法，比如昨天晚上跑步的时候想到一个新名字（前两天刚刚无聊地把公众号的名字改成「一个练习簿」，比原来少了两个字）：「程叙园」——编程的程，叙述的叙，花园的园。
+另外，以后更文的形式或许可以稍微改一下，只是发翻译完的文章太单调了，可以考虑配图，哪怕图文无关。或者减少篇幅，日汉对照，最后再加一段 translator&amp;rsquo;s note，但不必是中规中矩的译者注，而是更随意一些，也许就是流水账。
+总之，可以说跑步是我的重要灵感来源之一（之二大概是洗澡）。你有什么灵感来源？欢迎留言分享。</description>
+    </item>
+    
+    <item>
+      <title>福泽谕吉《劝学·第二篇》</title>
+      <link>http://example.org/cn/dairy/gakumonn/</link>
+      <pubDate>Tue, 24 Mar 2020 14:03:54 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/gakumonn/</guid>
+      <description>王健波 译
+平等 初篇开头写道：人人生而平等，无高下之别，自由自在云云。现在我想就此展开。人之出生，是上天使然，而非人力所致。之所以说人与人应该互敬互爱，各尽职守，互不相妨，是因为我们作为同类，共享一片天空，同为天地之间的造物。这就好比一个家庭里的兄弟姐妹和睦相处，是因为他们是在同一个家庭里，共享一父一母。
+因此，要问人和人的关系，毫无疑问是平等的。但是，这里所说的平等，并不是指外在条件上的平等，而是指权利道义上的平等。谈论外在条件时，我们会发现人和人之间有着很大的差距：贫富、强弱、智愚，大名华族住宫殿、衣美服、享美食，工人居陋巷、缺吃少穿，才智过人者可以做官、经商、改变世界，缺少智慧的人一生只能做小买卖，有强壮的相扑手，也有娇弱的公主，可以说是云泥之差。但是，如果从权利道义的角度来说，则是完全平等，没有一厘一毫的轻重。所谓的权利道义，就是要尊重每一个人的生命，保护每一个人的财产，珍视每一个人的名誉。既然上天赋予人生命，又赋予人身体和心灵，让人践行这一道理，那么无论如何，都不应该以人力去损害它。</description>
+    </item>
+    
+    <item>
+      <title>UiPath DataTable 操作</title>
+      <link>http://example.org/cn/dairy/uipath-datatable/</link>
+      <pubDate>Wed, 05 Feb 2020 09:58:15 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/uipath-datatable/</guid>
+      <description>筛选 使用 Filter Data Table Activity 可以对 DataTable 的数据进行筛选。
+如果是通过 DataScraping 获取的 DataTable，因为数据类型都是 String，无法直接比较数值大小。
+解决方法：
+aDataTable.Select(&amp;quot;Convert([WIID],&#39;System.Int32&#39;)&amp;lt;200000&amp;quot;).CopyToDataTable .CopyToDataTable 可以将 .Select 得到的 DataRow[] 复制到新 DataTable。
+参考： Filter Data Table Activity
+复制 DataRow .CopyToDataTable 只适用于 DataRow[]，如果要把单独一条 Datarow 复制到新的 DataTable，可尝试以下方法：
+ use Build Datatabel Activity set output as dtO use Assign activity dtO=yourDatatable.Clone() use Add AddROW Activity. set ArrayROW in item.ItemArray(), Datatable=dtO  参考：Copy Row from one DataTable to another - RPA Developers - UiPath Community Forum</description>
+    </item>
+    
+    <item>
+      <title>笔记 2020-1-30</title>
+      <link>http://example.org/cn/dairy/note-2020-1-30/</link>
+      <pubDate>Thu, 30 Jan 2020 16:19:12 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/note-2020-1-30/</guid>
+      <description>一、AWS
+亚马逊云计算服务，由亚马逊公司所创建的云计算平台，提供许多远程Web服务。Amazon EC2与Amazon S3都架构在这个平台上。在2002年7月首次公开运作，提供其他网站及客户端的服务。截至2007年7月，已经有330,000名开发者曾经使用过这项服务。
+AWS training and certification
+二、GWT
+Google Web Toolkit (Google 网页工具包) 是一个开放源代码 Web 开发框架，它允许开发人员使用 Java 轻松创建高性能的 AJAX 应用程序。使用 GWT，您能够在 Java 中编写前端，它会将源代码编译为高度优化且与浏览器兼容的 JavaScript 和 HTML。
+GWT Project
+三、Git
+Git 是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于 2005 年以 GPL 发布。最初目的是为更好地管理 Linux 内核开发而设计。
+Git教程 - 廖雪峰的官方网站
+四、Redmine
+Redmine 是一个网页界面的项目管理与缺陷跟踪管理系统的自由及开放源代码软件工具。它集成了项目管理所需的各项功能：日历、燃尽图和甘特图 以协助可视化表现项目与时间限制，问题跟踪和版本控制。此外，Redmine 也可以同时处理多个项目。
+Redmine Training Center - Easy Redmine
+五、Jena
+Apache Jena 是用来构建 Semantic Web 应用的 java 框架。Jena 提供了可扩 展的、用于帮助开发者开发处理 RDF、RDFS、RDFa、OWL 和 SPARQL 的Java Libraries，这些方法都遵循W3C发布的标准。
+Apache Jena -</description>
+    </item>
+    
+    <item>
+      <title>UiPath 学习笔记</title>
+      <link>http://example.org/cn/dairy/uipath-note/</link>
+      <pubDate>Tue, 28 Jan 2020 20:13:01 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/uipath-note/</guid>
+      <description>完成了 Level 3 最后一个任务。
+尝试把项目发布到 Ochestrator，可以正常运行。
+以下是遇到的一些问题及解决方法：
+一、开始 Job 时报错
+解决方法：更新 Robot 说明中的密码
+参考：Job failed when trying to run manually - RPA Developers - UiPath Community Forum
+二、Type Into (Simulate Type) 触发输入法
+解决方法：勾选 TypeInto 的 sendwindowsMessage 选项
+参考：【UiPath 问题 20 】如何解决输入法问题？ - 简书
+三、另存文件时输入路径 + 文件名并勾选「Simulate Type」导致另存失败（以原文件名保存在当前路径）
+解决方法：取消勾选「Simulate Type」
+四、On element appear 超时报错
+解决方法：RepeatForever 设为 false
+五、提取字符串中介于两个指定 index 之间的字符
+stringObject.substring(start,stop) 六、选中下拉菜单/下拉列表中文字的方法
+第一种：Click + Click （F2 开始 3 秒倒计时）
+第二种：用「Select item」Activity 实现</description>
+    </item>
+    
+    <item>
+      <title>在中文和英文、数字之间快速添加空格</title>
+      <link>http://example.org/cn/dairy/insert-space-between-chinese-charactors-and-english/</link>
+      <pubDate>Tue, 14 Jan 2020 09:38:31 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/insert-space-between-chinese-charactors-and-english/</guid>
+      <description>中文和数字、英文之间有一个空格会更美观。可以利用 vscode 的查找/替换功能实现。 想要搜索任意中文和数字或英文字母的组合，需要用到以下正则表达式，并启动正则匹配搜索模式：
+ 中文在左，数字或英文字母在右：([\u4e00-\u9fa5]+)([\da-zA-Z]+) 数字或英文字母在左，中文在右：([\da-zA-Z]+)([\u4e00-\u9fa5]+)  然后 replace 行填写「$1 $2」 用于定义格式。
+ 参考：如何批量添加中文和英文数字之间的空格？用正则表达式吧_Hello,World.-CSDN 博客</description>
+    </item>
+    
+    <item>
+      <title>Hexo&#43;Github 搭建个人博客（Mac）</title>
+      <link>http://example.org/cn/dairy/startbloggingwithhexoandgithub/</link>
+      <pubDate>Tue, 14 Jan 2020 07:54:22 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/startbloggingwithhexoandgithub/</guid>
+      <description>安装  安装 Hexo 前需要先安装下列应用程序：   Node.js Git  安装 Hexo  $ npm install -g hexo-cli 建站 $ hexo init &amp;lt;folder&amp;gt; $ cd &amp;lt;folder&amp;gt; 配置 在 _config.yml 中修改配置。
+更换主题 换成我比较喜欢的 next 主题。
+ 安装  $ git clone https://github.com/iissnan/hexo-theme-next themes/next 修改配置文件（_config.yml）  theme: next 链接失效问题 问题描述：「首页」「归档」等链接失效，URL 地址最后面出现「%20」。 解决方法：去掉主题配置文件（theme/next/ _config.yml）里menu部分多余的空格，例如：  home: / || home 改为：
+home: /|| home 预览 $ hexo server 启动服务器。默认情况下，访问网址为：http://localhost:4000/
+部署  安装 hexo-deployer-git  $ npm install hexo-deployer-git —save 修改配置（_config.</description>
+    </item>
+    
+    <item>
+      <title>SQL 学习笔记</title>
+      <link>http://example.org/cn/dairy/learnmysql-md/</link>
+      <pubDate>Mon, 13 Jan 2020 19:59:37 +0000</pubDate>
+      
+      <guid>http://example.org/cn/dairy/learnmysql-md/</guid>
+      <description>2020年1月13日学習内容 关系数据库概述 - 廖雪峰的官方网站
+安装 mySQL 从 MySQL 官方网站下载最新的 MySQL Community Server 版本： https://dev.mysql.com/downloads/mysql/
+运行 MySQL Mac：
+cd /usr/local/mysql/bin ./mysql -u root -p mysql的可执行命令在/usr/local/mysql/bin目录下，而这个目录不在普通用户的环境路径下，因此每次执行时都需要输入完整路径，比较麻烦。因此需要将这个路径添加到环境变量中。首先我们需要创建一个 .bash_profile 文件（不要掉了文件名前面的 . 号），命令如下：
+touch .bash_profile 创建完成后，用编辑器打开这个文件，添加下面的内容：
+export PATH=/usr/local/mysql/bin:$PATH 保存后退出
+准备数据 下载 SQL 脚本，在命令行运行：
+$ mysql -u root -p &amp;lt; init-test-data.sql 就可以自动创建 test 数据库，并且在 test 数据库下创建 students 表和 classes 表，以及必要的初始化数据。
+使用数据库 mysql&amp;gt; USE test; 基本查询 SELECT * FROM &amp;lt;表名&amp;gt; 条件查询 SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;条件表达式&amp;gt; SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;条件1&amp;gt; AND/OR &amp;lt;条件2&amp;gt; SELECT * FROM &amp;lt;表名&amp;gt; WHERE NOT &amp;lt;条件&amp;gt; SELECT * FROM &amp;lt;表名&amp;gt; WHERE score BETWEEN 60 AND 90 要组合三个或者更多的条件，就需要用小括号()表示如何进行条件运算。 如果不加括号，条件运算按照 NOT、AND、OR 的优先级进行。</description>
+    </item>
+    
+    <item>
+      <title>人生啊，就是这么无常……</title>
+      <link>http://example.org/cn/20-13-00/</link>
+      <pubDate>Fri, 07 Jan 2005 20:13:00 +0800</pubDate>
+      
+      <guid>http://example.org/cn/20-13-00/</guid>
+      <description> 美丽的花开了，可它也会有一天凋谢
+在这个世界上，生命是一瞬也不会停止的
+它一直在动着，变着，这就是无常
+人的一生也是这样
+  但是，最后还是只有一死&amp;hellip;&amp;hellip;
+这难道不可以说，人生还是被悲伤所支配着吗？
+活着的时候 无论是克服痛苦还是追求喜悦
+最终死亡还是把一切都化为虚无
+那，人是为什么而生？
+想要和死亡这种永恒的东西对抗根本就是不可能
+  沙加啊，你忘记了
+忘记了？
+那是&amp;hellip;&amp;hellip;
+沙罗双树的花也&amp;hellip;&amp;hellip;凋落了吗&amp;hellip;&amp;hellip;
+  死并不是一切的终结
+即使是死也只不过是变化的一种
+沙加，沙加，你一定不能忘记啊！
+死亡决不是最后&amp;hellip;
+曾经活在这个世上的圣人们，
+都超越了死的境界！
+沙加啊！
+如果你也能领悟这一点的话
+那你也就成为了人类中最接近于神的人！
+  花开了，然后又会凋零
+星星是璀璨的，可那光芒也会消失！
+这个地球，太阳，这整个银河系
+甚至连这个宇宙，也会有死亡的时候！
+人的一生，和这些东西相比，简直就像是刹那间的事情
+在这样的一个瞬间，人降生了
+笑着，哭着，战斗，伤害，喜悦，悲伤，憎恶，爱
+一切都只是刹那间的邂逅
+而最后都要归入死亡的永眠！
+ </description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://example.org/cn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/cn/about/</guid>
+      <description>我是谁 一个日语翻译兼程序员。现居日本。
+翻译成果 中野京子作品  初见卢浮宫 命运之画：是意外，还是宿命  王朝物语   其他   孙正义传  / 杉本贵司
+  知的资本论  / 增田宗昭
+  美术的诱惑 / 宫下规久朗
+  艺术小料：异想天开的画家们  / 杉全美帆子
+  寺田寅彦随笔
+  福泽谕吉《劝学》
+  </description>
+    </item>
+    
+  </channel>
+</rss>
