@@ -8,20 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://example.org/cn/daily/1_test/</link>
-      <pubDate>Fri, 02 Sep 2022 10:16:48 +0000</pubDate>
-      
-      <guid>http://example.org/cn/daily/1_test/</guid>
-      <description>Title Title Title  quote
- 斜体
-加粗
-~delete~
-link
- 第二次测试</description>
-    </item>
-    
-    <item>
       <title>素菜</title>
       <link>http://example.org/cn/menu/vegetable/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
