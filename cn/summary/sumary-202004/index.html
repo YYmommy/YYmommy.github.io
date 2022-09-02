@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>VIM/NeoVIM配置 - Jianbo Wang | 王健波</title>
-    <meta property="og:title" content="VIM/NeoVIM配置 - Jianbo Wang | 王健波">
+    <title>shi月小结 - 張晶</title>
+    <meta property="og:title" content="shi月小结 - 張晶">
     
     <meta name="twitter:card" content="summary">
 
@@ -15,11 +15,6 @@
 
     
       
-      <meta property="description" content="等了很久的 DevTerm 终于到了。主要是想用它来当写作工具。说实话，用它打字并不令人愉快。至少需要一个适应阶段。它让我想起很多年前在电视里看过一个时尚人物访谈，虽然人名早已不记得了，只记得一点：那个时尚人物会自己给自己剪头发。他说：不便也是一种时尚。我的价值观，大概就是这样一点点拼凑起来的。
-东闯西撞地装好了输入法，装了 NeoVIM。装了Firge 字体、文泉驿正黑字体，看上去总算舒服了些。 &amp;hellip;">
-      <meta property="og:description" content="等了很久的 DevTerm 终于到了。主要是想用它来当写作工具。说实话，用它打字并不令人愉快。至少需要一个适应阶段。它让我想起很多年前在电视里看过一个时尚人物访谈，虽然人名早已不记得了，只记得一点：那个时尚人物会自己给自己剪头发。他说：不便也是一种时尚。我的价值观，大概就是这样一点点拼凑起来的。
-东闯西撞地装好了输入法，装了 NeoVIM。装了Firge 字体、文泉驿正黑字体，看上去总算舒服了些。 &amp;hellip;">
-      
     
 
     
@@ -29,11 +24,6 @@
 
     
     
-
-
-<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
-
-
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
@@ -50,7 +40,7 @@
     <header class="masthead">
       
 
-<h1><a href="/"><img src="/images/logo.png" alt="Jianbo Wang" /></a></h1>
+<h1><a href="/"><img src="/images/logo.png" alt="Jing Zhang" /></a></h1>
 
 
 
@@ -58,11 +48,11 @@
   <ul>
   
   
-  <li><a href="/cn/translation/">翻译</a></li>
+  <li><a href="/cn/daily/">日志</a></li>
   
-  <li><a href="/cn/issues/">日志</a></li>
+  <li><a href="/cn/summary/">总结</a></li>
   
-  <li><a href="/tags/">标签</a></li>
+  <li><a href="/cn/menu/">菜谱</a></li>
   
   <li><a href="/cn/about/">关于</a></li>
   
@@ -75,10 +65,10 @@
     <article class="main">
       <header class="title">
       
-<h1>VIM/NeoVIM配置</h1>
+<h1>shi月小结</h1>
 
 <h3>
-  2022-04-17</h3>
+  2021-09-24</h3>
 <hr>
 
 
@@ -88,26 +78,21 @@
 
 
 
-<p>等了很久的 DevTerm 终于到了。主要是想用它来当写作工具。说实话，用它打字并不令人愉快。至少需要一个适应阶段。它让我想起很多年前在电视里看过一个时尚人物访谈，虽然人名早已不记得了，只记得一点：那个时尚人物会自己给自己剪头发。他说：不便也是一种时尚。我的价值观，大概就是这样一点点拼凑起来的。</p>
-<p>东闯西撞地装好了输入法，装了 NeoVIM。装了Firge 字体、文泉驿正黑字体，看上去总算舒服了些。接下来又想折腾 VIM/NeoVIM 的配置。以下记录一下自己折腾的过程。</p>
-<h2 id="输入法">输入法</h2>
-<p>想试一下用 VIM 插件实现的输入法。为什么呢？图个安静吧。ibus 的输入框还是太跳了。本来想尝试 zhcon 在纯命令行的模式下写作，可惜不知道为什么，进入 zhcon 之后屏幕就被旋转了 90 度。暂时还没找到解决方法。如果找到，我肯定第一时间放弃图形界面。在那之前，还需忍耐一下。</p>
-<h3 id="安装-zfvimimhttpsgithubcomzsaberlv0zfvimim">安装 <a href="https://github.com/ZSaberLv0/ZFVimIM">ZFVimIM</a></h3>
-<p>安装 vim-plug</p>
-<p>Vim: macOS/Linux(UNIX)：</p>
-<pre tabindex="0"><code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-</code></pre><p>NVim:</p>
-<pre tabindex="0"><code>sh -c 'curl -fLo &quot;${XDG_DATA_HOME:-$HOME/.local/share}&quot;/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-</code></pre><p>vimrc 中添加 ZFVimIM 插件：</p>
-<pre tabindex="0"><code>call plug#begin('~/.vim/plugged')
-Plug 'ZSaberLv0/ZFVimIM'
-Plug 'ZSaberLv0/ZFVimJob'
-call plug#end()
-</code></pre><h3 id="todo">TODO</h3>
+<h3 id="看剧">看剧</h3>
 <ul>
-<li><input disabled="" type="checkbox"> </li>
+<li>《傲骨之战》第五季⭐⭐⭐⭐⭐</li>
+<li>《脱口秀大会》第四季⭐⭐⭐</li>
+<li>《我的砍价女王》⭐</li>
+<li></li>
+</ul>
+<h3 id="读书">读书</h3>
+<ul>
+<li>费兰特《成年人的谎言生活》⭐⭐⭐⭐</li>
+</ul>
+<h3 id="学习">学习</h3>
+<ul>
+<li>Salesforce</li>
+<li>mendix</li>
 </ul>
 
 
@@ -115,7 +100,7 @@ call plug#end()
   <footer>
   
 <nav class="post-nav">
-  <span class="nav-prev">&larr; <a href="/cn/todo/">TODO List</a></span>
+  <span class="nav-prev">&larr; <a href="/cn/summary/weekly-202109-1/">一周总结</a></span>
   <span class="nav-next"></span>
 </nav>
 <script type="text/javascript">
@@ -124,7 +109,7 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/cn\/todo\/';
+    url = '\/cn\/summary\/weekly-202109-1\/';
     
   } else if (e.which == 39) {  
     
@@ -141,12 +126,12 @@ document.addEventListener('keyup', function(e) {
   <label for="tab-1" class="label">Disqus</label>
   <div class="panel">
     <div id="disqus_thread"></div>
-    <script data-src="//wjianbo.disqus.com/embed.js" async></script>
+    <script data-src="//zhangakira.disqus.com/embed.js" async></script>
   </div>
   <input name="tabs" type="radio" id="tab-2" class="input"/>
   <label for="tab-2" class="label">Utterances</label>
   <div class="panel">
-    <script data-src="https://utteranc.es/client.js" repo="wjianbo/wjianbo.github.io" issue-term="pathname"
+    <script data-src="https://utteranc.es/client.js" repo="zhangakira/zhangakira.github.io" issue-term="pathname"
       label="comment" theme="github-light" crossorigin="anonymous" async></script>
   </div>
   <input name="tabs" type="radio" id="tab-3" class="input"/>
@@ -257,27 +242,12 @@ document.addEventListener('keyup', function(e) {
 
 
 
-<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 
   
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
 
   
   <hr>
-  <div class="copyright">© <a href="/">Jianbo Wang</a> 2010 - 2022</div>
+  <div class="copyright">© <a href="/">Jing Zhang</a> 2010 - 2021</div>
   
   </footer>
   </article>
