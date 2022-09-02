@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UiPath on Jianbo Wang | 王健波</title>
+    <link>https://wjianbo.github.io/tags/uipath/</link>
+    <description>Recent content in UiPath on Jianbo Wang | 王健波</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2020 09:58:15 +0000</lastBuildDate><atom:link href="https://wjianbo.github.io/tags/uipath/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UiPath DataTable 操作</title>
+      <link>https://wjianbo.github.io/cn/issues/uipath-datatable/</link>
+      <pubDate>Wed, 05 Feb 2020 09:58:15 +0000</pubDate>
+      
+      <guid>https://wjianbo.github.io/cn/issues/uipath-datatable/</guid>
+      <description>筛选 使用 Filter Data Table Activity 可以对 DataTable 的数据进行筛选。
+如果是通过 DataScraping 获取的 DataTable，因为数据类型都是 String，无法直接比较数值大小。
+解决方法：
+aDataTable.Select(&amp;quot;Convert([WIID],&#39;System.Int32&#39;)&amp;lt;200000&amp;quot;).CopyToDataTable .CopyToDataTable 可以将 .Select 得到的 DataRow[] 复制到新 DataTable。
+参考： Filter Data Table Activity
+复制 DataRow .CopyToDataTable 只适用于 DataRow[]，如果要把单独一条 Datarow 复制到新的 DataTable，可尝试以下方法：
+ use Build Datatabel Activity set output as dtO use Assign activity dtO=yourDatatable.Clone() use Add AddROW Activity. set ArrayROW in item.ItemArray(), Datatable=dtO  参考：Copy Row from one DataTable to another - RPA Developers - UiPath Community Forum</description>
+    </item>
+    
+    <item>
+      <title>UiPath 学习笔记</title>
+      <link>https://wjianbo.github.io/cn/issues/uipath-note/</link>
+      <pubDate>Tue, 28 Jan 2020 20:13:01 +0000</pubDate>
+      
+      <guid>https://wjianbo.github.io/cn/issues/uipath-note/</guid>
+      <description>完成了 Level 3 最后一个任务。
+尝试把项目发布到 Ochestrator，可以正常运行。
+以下是遇到的一些问题及解决方法：
+一、开始 Job 时报错
+解决方法：更新 Robot 说明中的密码
+参考：Job failed when trying to run manually - RPA Developers - UiPath Community Forum
+二、Type Into (Simulate Type) 触发输入法
+解决方法：勾选 TypeInto 的 sendwindowsMessage 选项
+参考：【UiPath 问题 20 】如何解决输入法问题？ - 简书
+三、另存文件时输入路径 + 文件名并勾选「Simulate Type」导致另存失败（以原文件名保存在当前路径）
+解决方法：取消勾选「Simulate Type」
+四、On element appear 超时报错
+解决方法：RepeatForever 设为 false
+五、提取字符串中介于两个指定 index 之间的字符
+stringObject.substring(start,stop) 六、选中下拉菜单/下拉列表中文字的方法
+第一种：Click + Click （F2 开始 3 秒倒计时）
+第二种：用「Select item」Activity 实现</description>
+    </item>
+    
+  </channel>
+</rss>

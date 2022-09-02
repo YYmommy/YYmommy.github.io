@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>用GitHub Issues写博客 - Jianbo Wang | 王健波</title>
+    <meta property="og:title" content="用GitHub Issues写博客 - Jianbo Wang | 王健波">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="blog 实现了自动部署，又纠结起写作工具。手机上喜欢用熊掌记，但是上传发布还是有些麻烦，于是又想起 issues1。受 yihong 的开源博客启发，想到如下的更新流程：
+graph TDA[用 issue 写作] --&amp;gt; |Generate GitBlog README| B[issue 内容添加至 blog 源码仓库]B --&amp;gt; |Auto Deploy hugo| C[自动 &amp;hellip;">
+      <meta property="og:description" content="blog 实现了自动部署，又纠结起写作工具。手机上喜欢用熊掌记，但是上传发布还是有些麻烦，于是又想起 issues1。受 yihong 的开源博客启发，想到如下的更新流程：
+graph TDA[用 issue 写作] --&amp;gt; |Generate GitBlog README| B[issue 内容添加至 blog 源码仓库]B --&amp;gt; |Auto Deploy hugo| C[自动 &amp;hellip;">
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<script async src="/js/load-typekit.js"></script>
+
+
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="cn">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.png" alt="Jianbo Wang" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/cn/translation/">翻译</a></li>
+  
+  <li><a href="/cn/issues/">日志</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  <li><a href="/cn/about/">关于</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>用GitHub Issues写博客</h1>
+
+<h3>
+  2022-03-07</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<p>blog 实现了自动部署，又纠结起写作工具。手机上喜欢用熊掌记，但是上传发布还是有些麻烦，于是又想起 issues<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。受 <a href="https://github.com/yihong0618">yihong</a> 的<a href="https://github.com/yihong0618/gitblog/issues/177">开源博客</a>启发，想到如下的更新流程：</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph TD
+A[用 issue 写作] --&gt; |Generate GitBlog README| B[issue 内容添加至 blog 源码仓库]
+B --&gt; |Auto Deploy hugo| C[自动生成静态文件并更新 blog 仓库]
+</code></pre><p>一共用到 2 个 action：</p>
+<ul>
+<li>Generate GitBlog README<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+<li>Auto Deploy hugo<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+</ul>
+<p>相关代码在我的 <a href="https://github.com/wjianbo/blog-data">blog-data 仓库</a>里都可以找到，欢迎参考。</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>用 issues 写作的想法最早来自<a href="https://io-oi.me/tech/continuous-writing-with-github-issues/">这篇文章</a>。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>参考 <a href="https://github.com/yihong0618">yihong</a> 的<a href="https://github.com/yihong0618/gitblog/issues/177">开源博客</a>。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>参考<a href="https://zhuanlan.zhihu.com/p/403221054">知乎文章</a>。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/cn/issues/20220228/">二月后半</a></span>
+  <span class="nav-next"><a href="/cn/issues/2_%E5%A8%B1%E4%B9%90/">娱乐</a> &rarr;</span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/cn\/issues\/20220228\/';
+    
+  } else if (e.which == 39) {  
+    
+    url = '\/cn\/issues\/2_%E5%A8%B1%E4%B9%90\/';
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
+
+<section class="comments">
+  <div class="tabs" style="display: none;">
+  <input name="tabs" type="radio" id="tab-1" checked class="input"/>
+  <label for="tab-1" class="label">Disqus</label>
+  <div class="panel">
+    <div id="disqus_thread"></div>
+    <script data-src="//wjianbo.disqus.com/embed.js" async></script>
+  </div>
+  <input name="tabs" type="radio" id="tab-2" class="input"/>
+  <label for="tab-2" class="label">Utterances</label>
+  <div class="panel">
+    <script data-src="https://utteranc.es/client.js" repo="wjianbo/wjianbo.github.io" issue-term="pathname"
+      label="comment" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  <input name="tabs" type="radio" id="tab-3" class="input"/>
+  <label for="tab-3" class="label">Preferences</label>
+  <div class="panel">
+    <p class="title">Layout of comment panels</p>
+    <input name="layout" type="radio" id="layout-1" checked />
+    <label for="layout-1">Tabbed (wide screen) / Stacked (small screen)</label>
+    <br/>
+    <input name="layout" type="radio" id="layout-2" />
+    <label for="layout-2">Full display</label>
+  </div>
+  </div>
+  <script>
+  (function(d) {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var t = d.getElementById('disqus_thread'), s = t.nextElementSibling,
+        a = d.querySelector('section.comments'),
+        rads = a.querySelectorAll('input[type="radio"]');
+    s.setAttribute('data-timestamp', +new Date());
+    var inputValues = function() {
+      var v = {};
+      rads.forEach(function(el) { v[el.id] = el.checked; });
+      return v;
+    }, selectTab2 = function() {
+      a.querySelector('#tab-2').checked = true;
+      return 'add';
+    }, showFullComment = function(el) {
+      if (el.name !== 'layout') return;
+      a.classList[el.id === 'layout-2' ? selectTab2() : 'remove']('comment-full');
+    }, inputRestore = function() {
+      var v = localStorage.getItem('comment-prefs');
+      if (!v) return;
+      v = JSON.parse(v);
+      rads.forEach(function(el) {
+        if (v[el.id]) {
+          el.checked = true;
+          showFullComment(el);
+        }
+      });
+    }, inputSave = function() {
+      showFullComment(this);
+      loadScript();
+      var v = JSON.stringify(inputValues());
+      try { localStorage.setItem('comment-prefs', v); } catch (e) {}
+    }, loadScript = function() {
+      var full = a.classList.contains('comment-full');
+      a.querySelectorAll('input[name="tabs"]').forEach(function(el, i) {
+        if (!full && !el.checked) return;
+        var p = a.querySelector('.panel:nth-of-type(' + (i + 1) + ') > script[data-src]');
+        if (!p || !p.dataset.src) return;
+        p.src = p.dataset.src;
+        p.removeAttribute('data-src');
+      });
+    };
+    
+    inputRestore();
+    
+    rads.forEach(function(el) { el.addEventListener('change', inputSave); });
+    var b = false, l = function(scroll) {
+      if (b) return;
+      a.querySelector('.tabs').style.display = '';
+      loadScript();
+      b = true;
+      if (scroll) t.scrollIntoView();
+    }
+    s.onerror = function(e) {
+      
+      var s2 = d.createElement('script');
+      s2.src = "//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqus.min.js";
+      t.appendChild(s2);
+      try { localStorage.setItem('dsqjs_mode', 'dsqjs'); } catch (e) {}
+      s2.onload = function(e) {
+        var s3 = d.createElement('link');
+        s3.rel = 'stylesheet';
+        s3.href = '//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqusjs.min.css';
+        d.head.appendChild(s3);
+        disqus_config.DisqusJSInit();
+      };
+      s2.onerror = function(e) {
+        t.innerText = 'Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。';
+        t.style.border = '1px dashed';
+        t.style.padding = '.5em';
+        t.style.background = 'lightyellow';
+        selectTab2();
+      };
+    };
+    
+    if (location.hash.match(/^#comment-[0-9]+$/)) return l(true);
+    var c = function() {
+      if (b) return;
+      var rect = a.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+    };
+    window.addEventListener('load', c);
+    d.addEventListener('scroll', c);
+  })(document);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+
+
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">© <a href="/">Jianbo Wang</a> 2010 - 2022</div>
+  
+  </footer>
+  </article>
+  
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({startOnLoad: false});
+    mermaid.init(undefined, '.language-mermaid');
+  </script>
+  </body>
+</html>
+
