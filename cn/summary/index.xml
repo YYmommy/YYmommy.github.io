@@ -16,14 +16,5 @@
       <description>看剧  《傲骨之战》第五季⭐⭐⭐⭐⭐ 《脱口秀大会》第四季⭐⭐⭐ 《我的砍价女王》⭐   读书  费兰特《成年人的谎言生活》⭐⭐⭐⭐  学习  Salesforce mendix  </description>
     </item>
     
-    <item>
-      <title>一周总结</title>
-      <link>http://example.org/cn/summary/weekly-202109-1/</link>
-      <pubDate>Sun, 19 Sep 2021 19:09:36 +0900</pubDate>
-      
-      <guid>http://example.org/cn/summary/weekly-202109-1/</guid>
-      <description>周日重新收拾了一下博客。</description>
-    </item>
-    
   </channel>
 </rss>

@@ -85,15 +85,6 @@
     </item>
     
     <item>
-      <title>一周总结</title>
-      <link>http://example.org/cn/summary/weekly-202109-1/</link>
-      <pubDate>Sun, 19 Sep 2021 19:09:36 +0900</pubDate>
-      
-      <guid>http://example.org/cn/summary/weekly-202109-1/</guid>
-      <description>周日重新收拾了一下博客。</description>
-    </item>
-    
-    <item>
       <title>关于</title>
       <link>http://example.org/cn/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
