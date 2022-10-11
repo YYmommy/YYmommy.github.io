@@ -6,7 +6,16 @@
     <description>Recent content in 日志 on 張晶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Sep 2022 02:16:10 +0000</lastBuildDate><atom:link href="http://example.org/cn/daily/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 09:10:04 +0000</lastBuildDate><atom:link href="http://example.org/cn/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tesst</title>
+      <link>http://example.org/cn/daily/1_tesst/</link>
+      <pubDate>Tue, 11 Oct 2022 09:10:04 +0000</pubDate>
+      
+      <guid>http://example.org/cn/daily/1_tesst/</guid>
+      <description>test</description>
+    </item>
+    
     <item>
       <title>九月第二周</title>
       <link>http://example.org/cn/daily/2_%E4%B9%9D%E6%9C%88%E7%AC%AC%E4%BA%8C%E5%91%A8/</link>
