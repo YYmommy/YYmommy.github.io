@@ -5,16 +5,6 @@
     <link>http://example.org/cn/summary/</link>
     <description>Recent content in 总结 on 張晶</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Sep 2021 12:56:56 +0000</lastBuildDate><atom:link href="http://example.org/cn/summary/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>shi月小结</title>
-      <link>http://example.org/cn/summary/sumary-202004/</link>
-      <pubDate>Fri, 24 Sep 2021 12:56:56 +0000</pubDate>
-      
-      <guid>http://example.org/cn/summary/sumary-202004/</guid>
-      <description>看剧  《傲骨之战》第五季⭐⭐⭐⭐⭐ 《脱口秀大会》第四季⭐⭐⭐ 《我的砍价女王》⭐   读书  费兰特《成年人的谎言生活》⭐⭐⭐⭐  学习  Salesforce mendix  </description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/cn/summary/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
