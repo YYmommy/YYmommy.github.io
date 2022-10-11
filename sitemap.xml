@@ -11,15 +11,6 @@
     <loc>http://example.org/cn/daily/</loc>
     <lastmod>2022-10-11T09:10:04+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/cn/menu/vegetable/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/cn/menu/</loc>
-    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/cn/menu/soup/</loc>
-    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/cn/summary/sumary-202004/</loc>
     <lastmod>2021-09-24T12:56:56+00:00</lastmod>
   </url><url>
@@ -31,9 +22,6 @@
   </url><url>
     <loc>http://example.org/cn/summary/</loc>
     <lastmod>2021-09-24T12:56:56+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/cn/menu/meat/</loc>
-    <lastmod>2021-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
